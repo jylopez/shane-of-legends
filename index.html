@@ -101,6 +101,8 @@
 		var quote = quotes[Math.floor(Math.random()*quotes.length)];
 		$("#quote-container").replaceWith(`<div id="quote-container">${quote}</div>`);
 	})
+
+	$("marquee body").css("overflow-y","hidden");
 </script>
 </body>
 </html>
